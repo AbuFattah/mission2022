@@ -24,6 +24,16 @@ body {
   color: #d9dbe1;
 }
 
+.blue-background {
+  background: #4f9da621;
+}
+.red-background {
+  background: #ff595931;
+}
+.yellow-background {
+  background: #fff4d6;
+}
+
 .text-center {
   text-align: center;
 }
@@ -62,6 +72,11 @@ p {
   width: 65%;
 }
 
+.link {
+  font-weight: bold;
+  color: #ff5959;
+}
+
 .btn {
   display: inline-block;
   color: #fff;
@@ -80,16 +95,19 @@ p {
   font-size: 24px;
 } */
 
-.margin-y {
+.my-1 {
+  margin: 100px 0;
+}
+.my-2 {
   margin: 50px 0;
 }
 
-.padding {
+/* .p {
   padding: 1rem;
-}
+} */
 
 .flex-container {
-  max-width: 1500px;
+  max-width: 1300px;
 
   margin: 0 auto;
   display: flex;
@@ -98,9 +116,9 @@ p {
   padding: 0 1rem;
 }
 .flex-item {
-  padding: 2rem;
+  /* background: #ccc; */
   margin: 0 1rem;
-  border-radius: 5px;
+  border-radius: 26px;
 }
 
 .focus-item-left {
@@ -114,7 +132,7 @@ p {
 }
 
 .focus-item-right {
-  width: 400px;
+  width: 500px;
 }
 
 .focus-item-right img {
@@ -123,33 +141,26 @@ p {
 
 /* Mission Section */
 
-#my-mission {
-  /* margin-bottom: 3rem; */
+#my-mission p {
+  margin: 1rem 0;
 }
 
 #my-mission img {
   width: 140px;
 }
 
-#my-mission .mission {
-  background: #4f9da621;
-}
-
-#my-mission .vision {
-  background: #ff595931;
-}
-
+#my-mission .mission,
+#my-mission .vision,
 #my-mission .goals {
-  background: #fff4d6;
+  /* margin: 0 1rem; */
+  padding: 2rem;
+  width: 600px;
+  height: 400px;
 }
-
-#develop {
-}
-
-/* Develop Section */
 
 #develop img,
-#community img {
+#community img,
+#involvement img {
   width: 400px;
   height: 400px;
   border-radius: 26px;
