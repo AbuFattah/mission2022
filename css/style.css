@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Poppins";
 }
+
+/* Helper classes */
 
 .orange-color {
   color: #ffad5a;
@@ -69,7 +70,7 @@ p {
 }
 
 .half-width {
-  width: 65%;
+  width: 55%;
 }
 
 .link {
@@ -87,24 +88,15 @@ p {
 }
 
 .info {
-  font-size: 14px;
+  font-size: 16px;
 }
-
-/* p.mission-title {
-  font-weight: bold;
-  font-size: 24px;
-} */
 
 .my-1 {
   margin: 100px 0;
 }
 .my-2 {
-  margin: 50px 0;
+  margin: 30px 0;
 }
-
-/* .p {
-  padding: 1rem;
-} */
 
 .flex-container {
   max-width: 1300px;
@@ -116,13 +108,8 @@ p {
   padding: 0 1rem;
 }
 .flex-item {
-  /* background: #ccc; */
   margin: 0 1rem;
   border-radius: 26px;
-}
-
-.focus-item-left {
-  width: 50%;
 }
 
 .focus-item-left .main-headline {
@@ -141,25 +128,49 @@ p {
 
 /* Mission Section */
 
-#my-mission p {
+#our-mission {
+  background-image: url(../images/shapes/grid.png);
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+}
+
+#our-mission p {
   margin: 1rem 0;
 }
 
-#my-mission img {
+#our-mission img {
   width: 140px;
 }
 
-#my-mission .mission,
-#my-mission .vision,
-#my-mission .goals {
+#our-mission .our-mission-content {
   padding: 2rem;
   width: 600px;
   height: 400px;
+  overflow: hidden;
 }
 
-#develop img,
-#community img,
-#involvement img {
+/* Develop, Community and Involvement Section */
+
+#develop {
+  background-image: url(../images/shapes/circle1.png);
+  background-repeat: no-repeat;
+  background-position: 15% 50%;
+}
+
+#community {
+  background-image: url(../images/shapes/grid.png),
+    url(../images/shapes/circle2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -10% -10%, 86% 100%;
+}
+
+#involvement {
+  background-image: url(../images/shapes/square1.png);
+  background-repeat: no-repeat;
+  background-position: 17% 40%;
+}
+
+.images {
   width: 400px;
   height: 400px;
   border-radius: 26px;
@@ -168,6 +179,8 @@ p {
 .left-content {
   margin-right: 4.5rem;
 }
+
+/* Footer Section */
 
 footer {
   padding: 2rem;
