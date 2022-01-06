@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.orange-color {
+  color: #ffad5a;
+}
+
+.red-color {
+  color: #ff5959;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+h1.large-heading {
+  font-family: "Yeseva One";
+  font-size: 60px;
+}
+
+.medium-heading {
+  font-size: 48px;
+}
+
+.small-heading {
+  font-size: 36px;
+}
+
+p.mission-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+margin-y {
+  margin: 1.5rem 0;
+}
+
+padding {
+  padding: 1rem;
+}
